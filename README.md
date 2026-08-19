@@ -38,10 +38,6 @@ TicTacToe/
 └── README.md
 ```
 
-## Known Gap
-
-`PerfectBotFile.java` hard-codes the filename `better-than-perfect-moves.txt` and reads it from the project's working directory — that file is included at the project root. One caveat: the data file included here wasn't clearly labeled when I pulled it together, so it's possible this is actually the plain `perfect-moves.txt` variant rather than the "better than perfect" one (the course provided both — see `PerfectBotFile.java`'s class comment for the difference). Worth double-checking against the original assignment files if exact behavior matters.
-
 ## Running It
 
 1. Compile: `javac src/*.java -d out`
